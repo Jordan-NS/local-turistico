@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+
+:root {
+  --text-headline: #E1624F;
+  --text-primary: #1B1B1B;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+
+  --accent-blue: #0C51A7;
+  --accent-orange: #E95E10;
+  --accent-pink: #E5245E;
+  --accent-purple: #591B98;
+
+  font-family: "Open Sans", serif;
+}
+
+body {
+  background-color: #F5F4F0;
+  max-width: 1280px;
+  margin: auto;
+}
+
+main {
+  align-items: center;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px 80px 0;
+}
+
+#main_section img {
+  height: 660px;
+  width: 1120px;
+  border-radius: 28px;
+}
+
+.headline {
+  color: var(--text-headline);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.primary_title {
+  color: var(--text-primary);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+}
+
+#second_section {
+  margin-top: 84px;
+}
+
+.secondary_title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+
+.main_text {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+img {
+  margin-top: 64px;
+  margin-bottom: 20px;
+  background-size: cover;
+  border-radius: 28px;
+  height: 350px;
+  width: 1120px;
+}
+
+.orderedList {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.list-item_blue {
+  color: var(--accent-blue);
+}
+.list-item_purple {
+  color: var(--accent-purple);
+}
+.list-item_pink {
+  color: var(--accent-pink);
+}
+.list-item_orange {
+  color: var(--accent-orange);
+}
+footer {
+  color: var(--text-secondary);
+  text-align: center;
+  width: 1120px;
+  margin: 0 88px 80px;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+section hr {
+  margin: 40px 0 40px;
+}
+
+.credit{
+  margin-top: 70px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.heart {
+  color: var(--text-secondary);
+  vertical-align: middle;
+  height: 12px;
+  width: 14px;
+  margin-top: 20px;
+}
